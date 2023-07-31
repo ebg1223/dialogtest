@@ -12,6 +12,7 @@ import {
 import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
 import React, { useState } from 'react'
 import { useLink } from 'solito/link'
+import { DialogDemo } from './testdialog'
 
 export function HomeScreen() {
   const linkProps = useLink({
@@ -50,6 +51,7 @@ export function HomeScreen() {
       </XStack>
 
       <SheetDemo />
+      <DialogDemo />
     </YStack>
   )
 }
